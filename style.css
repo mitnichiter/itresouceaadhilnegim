@@ -1,3 +1,84 @@
-body{
-    background-color: aliceblue;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+body{
+    background-color: #060058;
+    font-family: monospace;
+}
+.nav{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(0, 0, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav h1{
+    color: #ff0077;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    
+}
+.nav h1:hover{
+    color: #ff288c;
+    text-decoration: underline;
+    cursor: progress;
+
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #ff0077;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+.main h1:hover{
+    color: #ff439b;
+    text-decoration: underline;
+    cursor:crosshair;
+
+
+}
+.main .chapters{
+    margin: 30px 0;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.main .chapters a{
+    width: 100px;
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(226, 43, 125);
+    font-size: 18px;
+    border-color: #b00052;
+    border-style: solid;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+.main .chapters a:visited{
+    color: rgb(255, 0, 212);
+}
+.main .chapters a:hover{
+    color: #060058;
+    background-color: #b00052;
+    border-radius: 50px;
+}
+
