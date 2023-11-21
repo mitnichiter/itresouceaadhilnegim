@@ -20,6 +20,7 @@ body{
     color: #ff0077;
     text-decoration: none;
     transition: 0.5s ease-in-out;
+    font-size: 30px;
     
 }
 .nav h1:hover{
@@ -36,6 +37,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 .main h1{
     margin-bottom: 20px;
@@ -48,22 +50,22 @@ body{
 .main h1:hover{
     color: #ff439b;
     text-decoration: underline;
-    cursor:crosshair;
+    cursor: pointer;
 
 
 }
 .main .chapters{
-    margin: 30px 0;
-    width: 600px;
+
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 15px;
     justify-content: center;
 }
 .main .chapters a{
     width: 100px;
-    padding: 10px;
-    margin: 0 10px;
+    padding: 5px;
+    margin: 0 5px;
     text-decoration: none;
     color: rgb(226, 43, 125);
     font-size: 18px;
