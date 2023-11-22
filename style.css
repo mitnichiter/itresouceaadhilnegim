@@ -5,29 +5,28 @@
 }
 
 body{
-    background-color: #060058;
+    background-color: #CEEDDB;
     font-family: monospace;
 }
 .nav{
     position: fixed;
     height: 70px;
     width: 100%;
-    background-color: rgb(0, 0, 53);
+    background-color: #2E5339;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .nav h1{
-    color: #ff0077;
+    color: #CEEDDB;
     text-decoration: none;
     transition: 0.5s ease-in-out;
     font-size: 30px;
     
 }
 .nav h1:hover{
-    color: #ff288c;
-    text-decoration: underline;
-    cursor: progress;
+    color: #6adb91;
+    cursor: pointer;
 
 
 }
@@ -41,16 +40,22 @@ body{
     align-items: center;
 
 }
-.hero .herocont h1{
+.hero .herocont1{
+    height: 30vh;
+}
+.hero .herocont2{
+    height: 70vh;
+}
+.hero .herocont1 h1{
     margin-bottom: 20px;
     font-size: 30px;
-    color: #ff0077;
+    color: #003459;
     text-decoration: none;
     transition: 0.4s ease-in-out;
 }
 
-.hero .herocont h1:hover{
-    color: #ff439b;
+.hero .herocont1 h1:hover{
+    color: #005999;
     text-decoration: underline;
     cursor: pointer;
 }
@@ -67,20 +72,19 @@ body{
 .main h1{
     margin-bottom: 20px;
     font-size: 50px;
-    color: #ff0077;
+    color: #003459;
     text-decoration: none;
-    transition: 0.4s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .main h1:hover{
-    color: #ff439b;
+    color: #1b6f55;
     text-decoration: underline;
     cursor: pointer;
 
 
 }
 .main .chapters{
-
     width: 70%;
     display: flex;
     flex-wrap: wrap;
@@ -92,19 +96,20 @@ body{
     padding: 5px;
     margin: 0 5px;
     text-decoration: none;
-    color: rgb(226, 43, 125);
+    color: #003459;
     font-size: 18px;
-    border-color: #b00052;
+    border-color: #003459;
     border-style: solid;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
     text-align: center;
 }
 .main .chapters a:visited{
-    color: rgb(255, 0, 212);
+    color: #003459;
 }
 .main .chapters a:hover{
     color: #060058;
-    background-color: #b00052;
+    background-color: #85BAA1;
+    border-color: #85BAA1;
     border-radius: 50px;
 }
