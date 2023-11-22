@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -30,6 +31,30 @@ body{
 
 
 }
+.hero{
+    padding-top: 70px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero .herocont h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #ff0077;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+.hero .herocont h1:hover{
+    color: #ff439b;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .main{
     width: 100%;
     height: 100vh;
@@ -83,4 +108,3 @@ body{
     background-color: #b00052;
     border-radius: 50px;
 }
-
