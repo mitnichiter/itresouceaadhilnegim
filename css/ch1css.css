@@ -1,0 +1,21 @@
+.hero .herocont2{
+    display: flex;
+    padding-top: 60px;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+}
+.hero .herocont2 h3{
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    align-self: self-start;
+}
+.hero .herocont2 ol{
+    align-self: self-start;
+    list-style: disc;
+    font-size: 18px;
+}
+.hero .herocont2 ol ol{
+    padding-left: 20px;
+}

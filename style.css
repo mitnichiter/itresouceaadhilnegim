@@ -41,7 +41,16 @@ body{
 
 }
 .hero .herocont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 30vh;
+    width: 100%;
+    background-image: url(img/ch1/ch1bgh.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .hero .herocont2{
     height: 70vh;
@@ -49,9 +58,13 @@ body{
 .hero .herocont1 h1{
     margin-bottom: 20px;
     font-size: 30px;
+    width: 85%;
+    text-align: center;
     color: #003459;
     text-decoration: none;
     transition: 0.4s ease-in-out;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
 }
 
 .hero .herocont1 h1:hover{
