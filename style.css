@@ -98,7 +98,7 @@ body{
 
 }
 .main .chapters{
-    width: 70%;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -125,4 +125,10 @@ body{
     background-color: #85BAA1;
     border-color: #85BAA1;
     border-radius: 50px;
+}
+
+@media (max-width: 350px) {
+    .main .chapters{
+        width: 300px;
+    }
 }
