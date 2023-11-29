@@ -67,4 +67,11 @@
     .hero .herocont2{
         padding-top: 10px;
     }
+    .hero .herocont2 h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .hero .herocont2 li{
+        font-size: 14px;
+    }
 }
