@@ -34,7 +34,14 @@
     justify-content: center;
     align-items: center;
     border-right: 3px solid #1a4f30;
-    
+    overflow: scroll;
+    flex-direction: column;
+}
+.step1 .step h1{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    align-self: flex-start;
+    text-align: left;
 }
 .step1 .example{
     text-align: center;
@@ -44,20 +51,97 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.step2{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+.step2 .step{
+    text-align: center;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px solid #1a4f30;
+    overflow: scroll;
+    flex-direction: column;
+}
+.step2 .step h1{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    align-self: flex-start;
+    text-align: left;
+}
+.step2 .example{
+    text-align: center;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 @media (max-width: 450px) {
     .step1{
         display: flex;
         flex-direction: column;
     }
     .step1 .step{
+        padding-top: 20px;
+        font-size: 10px;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 3px solid #1a4f30;
+        border-right: 0;
+    }
+    .step1 .step h1{
+        font-size: 25px;
+    }
+    .step1 .step ol li{
+        list-style-type: disc;
+        margin-left: 20px;
+        text-align: left;
+    }
+    .step1 .example{
         height: 50vh;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-bottom: 3px solid #1a4f30;
     }
-    .step1 .example{
+
+    .step2{
+        display: flex;
+        flex-direction: column;
+    }
+    .step2 .step{
+        padding-top: 20px;
+        font-size: 10px;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 3px solid #1a4f30;
+        border-right: 0;
+    }
+    .step2 .step h1{
+        font-size: 25px;
+    }
+    .step2 .step ol li{
+        list-style-type: disc;
+        margin-left: 20px;
+        text-align: left;
+    }
+    .step2 .example{
         height: 50vh;
         width: 100%;
         display: flex;
