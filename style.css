@@ -41,7 +41,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: scroll;
+
 
 }
 .hero .herocont1{
@@ -140,6 +140,7 @@ body{
     }
     .hero{
         padding-top: 50px;
+        overflow: scroll;
     }
     .hero .herocont1{
         display: flex;

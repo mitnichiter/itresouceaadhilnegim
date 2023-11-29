@@ -34,7 +34,6 @@
     justify-content: center;
     align-items: center;
     border-right: 3px solid #1a4f30;
-    overflow: scroll;
     flex-direction: column;
 }
 .step1 .step h1{
@@ -67,7 +66,6 @@
     justify-content: center;
     align-items: center;
     border-right: 3px solid #1a4f30;
-    overflow: scroll;
     flex-direction: column;
 }
 .step2 .step h1{
@@ -90,6 +88,7 @@
     .step1{
         display: flex;
         flex-direction: column;
+        overflow: scroll;
     }
     .step1 .step{
         padding-top: 20px;
@@ -121,6 +120,7 @@
     .step2{
         display: flex;
         flex-direction: column;
+        overflow: scroll;
     }
     .step2 .step{
         padding-top: 20px;
