@@ -23,7 +23,7 @@ html, body {
     background-size: cover;
     background-blend-mode: darken;
     height: 100%; 
-    filter: sepia(100%);
+
 }
 
 p1 {
