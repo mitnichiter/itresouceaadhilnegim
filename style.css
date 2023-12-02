@@ -7,12 +7,16 @@
     font-family: myfont;
     src: url(./Myfont-Regular.ttf);
 }
+@font-face {
+    font-family: mh47;
+    src: url(./Mh47-Regular.ttf);
+}
 a:visited{
     color: #CEEDDB;
 }
 body{
     background-color: #CEEDDB;
-    font-family: myfont;
+    font-family: mh47;
 }
 .nav{
     z-index: 100;
@@ -28,7 +32,7 @@ body{
     color: #CEEDDB;
     text-decoration: none;
     transition: 0.5s ease-in-out;
-    font-size: 30px;
+    font-size: 50px;
     
 }
 .nav h1:hover{
@@ -92,7 +96,7 @@ body{
 }
 .main h1{
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 70px;
     color: #003459;
     text-decoration: none;
     transition: 0.5s ease-in-out;
@@ -118,7 +122,8 @@ body{
     margin: 0 5px;
     text-decoration: none;
     color: #003459;
-    font-size: 18px;
+    font-size: 30px;
+    font-weight: 600;
     border-color: #003459;
     border-style: solid;
     border-radius: 10px;
@@ -140,7 +145,7 @@ body{
         height: 50px;
     }
     .nav h1{
-        font-size: 15px;
+        font-size: 25px;
     }
     .hero{
         padding-top: 50px;
@@ -160,9 +165,13 @@ body{
         padding-top: 110px;
     }
     .main h1{
-        font-size: 30px;
+        font-size: 43px;
     }
     .main .chapters{
         width: 300px;
+        
+    }
+    .main .chapters a{
+        font-size: 22px;
     }
 }
