@@ -3,12 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: myfont;
+    src: url(./Myfont-Regular.ttf);
+}
 a:visited{
     color: #CEEDDB;
 }
 body{
     background-color: #CEEDDB;
-    font-family: monospace;
+    font-family: myfont;
 }
 .nav{
     z-index: 100;
